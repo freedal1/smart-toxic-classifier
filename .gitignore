@@ -25,3 +25,13 @@ runs/
 *.bin
 *.pt
 *.pth
+# Trained models
+models/rubert-toxic/
+
+# Hugging Face weights
+*.safetensors
+*.safetensors
+*.pth
+*.pkl
+*.joblib
+models/
