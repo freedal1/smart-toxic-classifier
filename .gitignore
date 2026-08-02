@@ -35,3 +35,11 @@ models/rubert-toxic/
 *.pkl
 *.joblib
 models/
+models/
+*.safetensors
+*.pkl
+*.joblib
+__pycache__/
+.venv/
+.DS_Store
+.ipynb_checkpoints/
