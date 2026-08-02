@@ -1,45 +1,42 @@
-# Python
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
-*.pyo
+*$py.class
 
-# Jupyter
-.ipynb_checkpoints/
-
-# Environment
+# Virtual environments
 .venv/
 venv/
+env/
 
-# Mac
-.DS_Store
-
-# Training checkpoints
-models/checkpoints/
-models/checkpoints_backup/
-
-# Logs
-logs/
-runs/
-
-# Large files
-*.bin
-*.pt
-*.pth
-# Trained models
-models/rubert-toxic/
-
-# Hugging Face weights
-*.safetensors
-*.safetensors
-*.pth
-*.pkl
-*.joblib
-models/
-models/
-*.safetensors
-*.pkl
-*.joblib
-__pycache__/
-.venv/
-.DS_Store
+# Jupyter Notebooks
 .ipynb_checkpoints/
+*.ipynb
+
+# Model files (большие файлы)
+models/
+*.pkl
+*.joblib
+*.safetensors
+*.bin
+*.h5
+
+# Logs and checkpoints
+logs/
+checkpoints/
+
+# Data files (если большие, но у тебя 4.5 МБ – можно оставить)
+# *.csv
+# !data/*.csv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
