@@ -1,26 +1,27 @@
-# Virtual environment
-.venv/
-venv/
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
 
 # Jupyter
 .ipynb_checkpoints/
 
-# Python cache
-__pycache__/
-*.py[cod]
+# Environment
+.venv/
+venv/
 
-# MacOS
+# Mac
 .DS_Store
 
-# IDE
-.idea/
-
-# Model checkpoints
+# Training checkpoints
 models/checkpoints/
+models/checkpoints_backup/
 
 # Logs
 logs/
+runs/
 
-# Environment
-.env
-
+# Large files
+*.bin
+*.pt
+*.pth
