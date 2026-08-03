@@ -517,11 +517,6 @@ python scripts/inference.py
 ```
 
 
----
-
-# 🚧 Дальнейшее развитие
-
-
 Импорт в другом скрипте:
 
 
@@ -531,6 +526,11 @@ from app.model import predict
 result = predict("Привет, как дела?")
 print(result)
 ```
+
+---
+
+# 🚧 Дальнейшее развитие
+
 
 Выполнено:
 
