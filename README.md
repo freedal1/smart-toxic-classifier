@@ -646,7 +646,7 @@ pip install -r requirements.txt
 The complete machine learning pipeline is available in the notebook.
 
 ```bash
-jupyter notebook notebooks/smart-toxic-classifier.ipynb
+jupyter notebook notebooks/01_experiments.ipynb
 ```
 
 The notebook contains:
